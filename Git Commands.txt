@@ -1,0 +1,51 @@
+Git Commands
+
+1 git --version
+
+2 git init	
+
+3 git config --global user.name "vinay1364"	->set user name
+
+4 git config --global user.email "vinaykmr.1364@gmail.com"	->set email
+
+5 git config --global user.name		->check user name
+
+6 git config --global user.email	->check user name
+
+7 ls ->list files , ls -a	->list all files (hidden also)
+
+8 git status	
+
+9 git add Sum.java	->add file to staging area
+
+10 git add .	->add all files to staging area
+
+11 git commit -m "your msg"
+
+12 git checkout hashCodeValue	->to got back to any previous commit (using commit Hash Code)
+
+13 git log 	-> list of all previous commits
+
+14 git branch 	->list all branches
+
+15 git checkout master	->to move to master branch
+
+16 git branch dev 	->create new branch 'dev'
+
+17 git checkout -b vinay/multiply	->create new branch 'vinay/multiply'
+
+18 When you want to add new changes in 'vinay/multiply' branch into 'dev' branch-
+	(vinay/multiply)>git checkout dev
+	(dev)>git merge vinay/multiply
+
+19 To merge changes in dev to the master branch-
+	(dev)>git checkout master
+	(master)>git merge dev
+
+20 If you want a file with sensitive info to not be tracked by git then add the file to .gitignore file-
+	-in .gitignore file-> add sensitive.txt
+
+21
+
+
+
